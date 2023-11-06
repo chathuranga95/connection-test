@@ -18,8 +18,8 @@ spec:
     # +optional Defines the service references from the internal API marketplace.
     serviceReferences:
       # +required Name of the service reference
-    - name: choreo:///hasithahiranya/kaqg/tlztnp/803f0/v1.0/PUBLIC
-      connectionConfig: 01ee7cac-50fc-15fe-8f09-ee9b90982ce0
+    - name: choreo:///hasithahiranya/kaqg/hxgwgp/803f0/v1.0/ORGANIZATION
+      connectionConfig: 01ee7cc5-118e-13d0-b2ab-488af1c578f2
       env:
       - from: ServiceURL
         to: SERVICE_URL
