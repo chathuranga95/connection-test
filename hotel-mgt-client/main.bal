@@ -10,6 +10,11 @@ public function main() returns error? {
     string tokenUrl = os:getEnv("TOKEN_URL");
     string serviceUrl = os:getEnv("SERVICE_URL");
 
+    log:printInfo("ClientId = " + clientId);
+    log:printInfo("Client Seret = " + clientSecret);
+    log:printInfo("TokenUrl = " + tokenUrl);
+    log:printInfo("ServiceUrl = " + serviceUrl);
+
     http:Client reserveClient = check new (
         url = serviceUrl,
         config = {
